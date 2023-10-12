@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('principal');
 });
+
+
+// "routes": [{
+//     "src": "/(.*)",
+//     "dest": "/api/index.php"
+// }],
